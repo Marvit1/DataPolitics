@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col sm:flex-row justify-center items-center sm:items-start my-2 max-w-[1280px]">
+  <div class="flex flex-col sm:flex-row justify-center items-center sm:items-start max-w-[1260px] m-auto">
     <div class="sm:w-2/3 w-full">
     <main class="flex flex-col items-center justify-center my-6">
       <h1 class="text-xl flex my-2 items-center justify-center text-gray-300 hover:text-gray-900 bg-gray-700 shadow-xl shadow-gray-600/50 hover:bg-gray-400 sm:w-[480px] w-[240px]   rounded-lg">Մամուլ</h1>

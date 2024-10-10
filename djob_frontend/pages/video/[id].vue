@@ -6,7 +6,7 @@
 
       <!--aj-->
 
-      <div class="flex flex-col sm:flex-row justify-center items-center sm:items-start max-w-[1400px] m-auto">
+  <div class="flex flex-col sm:flex-row justify-center items-center sm:items-start max-w-[1260px] m-auto">
 
   <!--f-->
   <div class="flex flex-col items-center justify-center w-full sm:w-2/3  mx-12 relative ">

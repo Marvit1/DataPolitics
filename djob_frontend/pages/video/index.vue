@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col sm:flex-row justify-center items-center sm:items-start my-2 max-w-[1280px]">
+  <div class="flex flex-col sm:flex-row justify-center items-center sm:items-start max-w-[1260px] m-auto">
     <div class="sm:w-2/3 w-full">
   <div class="flex flex-col items-center justify-center my-6">
     <!-- Videos Section -->
