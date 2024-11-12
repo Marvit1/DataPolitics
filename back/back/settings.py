@@ -18,6 +18,11 @@ import django_heroku
 # Base directory path
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+from django.core.wsgi import get_wsgi_application
+
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'back.back.settings')
+application = get_wsgi_application()
+
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-1+x9ie7mansn0ge&$brta83@lms23%s#cg9a%i8pp_yyhf&58l'
 
