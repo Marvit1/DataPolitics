@@ -89,7 +89,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'back.back.wsgi.application'
+WSGI_APPLICATION = 'back.wsgi.application'
 
 # Database configuration
 DATABASES = {
