@@ -1,4 +1,4 @@
-web: gunicorn back.back.wsgi:application --bind 0.0.0.0:$PORT
+web: gunicorn back.wsgi:application --bind 0.0.0.0:8000
 
 
 
