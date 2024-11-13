@@ -1,6 +1,4 @@
-// nuxt.config.ts
 export default defineNuxtConfig({
-
   plugins: [
     '~/plugins/axios.js', // Register your plugin here
   ],
@@ -17,7 +15,7 @@ export default defineNuxtConfig({
   
   runtimeConfig: {
     public: {
-      apiBase: 'http://127.0.0.1:8000/api/v1', // Your Django API base URL
+      apiBase: 'https://datapol-3b37870894bb.herokuapp.com/api/v1', // Update with your Django API base URL on Heroku
     }
   },
   app: {
@@ -26,7 +24,7 @@ export default defineNuxtConfig({
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { name: 'description', content: ' News' },
+        { name: 'description', content: 'News' },
         { name: 'keywords', content: 'news, updates, articles, latest news' },
         { name: 'robots', content: 'index, follow' },
         // Open Graph Meta Tags
