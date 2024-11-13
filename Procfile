@@ -1,3 +1,2 @@
-nuxt: npm start --prefix djob_frontend # Nuxt server
-web: gunicorn back.back.wsgi --log-file -
+web: npm start --prefix djob_frontend & gunicorn back.wsgi --log-file -
 
