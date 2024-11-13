@@ -1,1 +1,1 @@
-web: npm start --prefix djob_frontend
+#web: npm start --prefix djob_frontend
