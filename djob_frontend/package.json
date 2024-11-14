@@ -7,7 +7,9 @@
     "preview": "nuxt preview",
      "start": "nuxt start",
     "generate": "nuxt generate",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "heroku-postbuild": "npm install --prefix djob_frontend && npm run build --prefix djob_frontend"
+
   },
   "dependencies": {
     "@nuxt/image": "^1.7.0",
@@ -31,4 +33,5 @@
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.3"
   }
+  
 }
