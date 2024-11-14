@@ -1,1 +1,0 @@
-web: npm run build --prefix djob_frontend && npm run preview --prefix djob_frontend
