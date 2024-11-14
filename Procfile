@@ -1,2 +1,1 @@
-web: gunicorn back.wsgi --log-file -
-frontend: npm run preview --prefix djob_frontend
+web: sh -c "gunicorn back.wsgi --log-file - & cd djob_frontend && npm install && npm run preview"
